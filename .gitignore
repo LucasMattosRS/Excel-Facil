@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Notas internas de desenvolvimento, não fazem parte do produto
+CLAUDE.md
+.claude
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

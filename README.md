@@ -4,6 +4,11 @@ Site gratuito e open source que ajuda quem não sabe usar o Excel a montar uma p
 
 Você monta a tabela clicando, escolhe "somar", "calcular média" etc. apontando as células, e baixa um arquivo `.xlsx` real, com fórmulas vivas e formatação, pronto pra abrir no Excel.
 
+**🔗 Use agora:** <!-- TODO: colar o link do deploy na Vercel aqui, ex: https://excel-facil.vercel.app -->
+
+<!-- TODO: gravar um GIF de 15s mostrando criar tabela → somar → baixar → abrir no Excel, salvar em docs/demo.gif e descomentar a linha abaixo -->
+<!-- ![Demonstração do Excel Fácil](docs/demo.gif) -->
+
 ## Por que existe
 
 O Excel tem um monte de recursos que a maioria das pessoas nunca aprendeu a usar. Este projeto não tenta ensinar o Excel inteiro — ele monta a planilha por você, em linguagem simples, e mostra exatamente o que cada fórmula criada está fazendo.

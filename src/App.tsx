@@ -4,6 +4,7 @@ import Grid from './Grid'
 import TelaInicial from './components/TelaInicial'
 import Toolbar from './components/Toolbar'
 import PainelFormulas from './components/PainelFormulas'
+import Footer from './components/Footer'
 import { exportarParaXlsx } from './lib/exportarParaXlsx'
 import { explicarFormula, intervaloTemTexto, numeroParaLetra, partesDaChave, letraParaIndice } from './lib/formulas'
 import { inserirColuna, inserirLinha, removerColuna, removerLinha } from './lib/estrutura'
@@ -319,7 +320,12 @@ function App() {
   }
 
   if (!planilha) {
-    return <TelaInicial onComecar={comecarDoZero} onUsarModelo={usarModelo} />
+    return (
+      <>
+        <TelaInicial onComecar={comecarDoZero} onUsarModelo={usarModelo} />
+        <Footer />
+      </>
+    )
   }
 
   const partesCelulaAtiva = celulaAtiva ? partesDaChave(celulaAtiva) : null
@@ -385,6 +391,8 @@ function App() {
           <PainelFormulas celulas={planilha.celulas} />
         </div>
       </div>
+
+      <Footer />
     </div>
   )
 }
