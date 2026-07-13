@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 const CHAVE_PIX = '321c3722-4108-412e-86e1-c593daec0aba'
 const URL_GITHUB = 'https://github.com/LucasMattosRS/Excel-Facil'
-const URL_LINKEDIN = 'https://www.linkedin.com/in/SEU-USUARIO-AQUI' // TODO: Lucas precisa confirmar a URL certa
+const URL_LINKEDIN = 'https://www.linkedin.com/in/lucas-mattos-15a32b20b'
 
 function Footer() {
   const [copiado, setCopiado] = useState(false)
